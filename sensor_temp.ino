@@ -4,7 +4,8 @@ Serial.begin(9600);
 }
 
 void loop() {
-  float volt,t=0;
+  float volt;
+  int t=0;
   delay(700);
   volt=analogRead(A0);
   Serial.print("Numero de bits: ");
